@@ -1,0 +1,2105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#355E3B" />
+  <title>Vive Cuevo | Turismo Chaqueño</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- AOS Animations -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#menu" data-bs-smooth-scroll="true" tabindex="0">
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#inicio">🌿 Vive Cuevo</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Abrir menú">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div id="menu" class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#hospedaje">Hospedaje</a></li>
+          <li class="nav-item"><a class="nav-link" href="#alimentacion">Alimentación</a></li>
+          <li class="nav-item"><a class="nav-link" href="#comidas">Comidas Típicas</a></li>
+          <li class="nav-item"><a class="nav-link" href="#queso">Ruta del Queso</a></li>
+          <li class="nav-item"><a class="nav-link" href="#videos-queso">Videos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#tipos-queso">Tipos de Quesos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#historias">Historias</a></li>
+          <li class="nav-item"><a class="nav-link" href="#visita">Visita</a></li>
+          <li class="nav-item"><a class="nav-link" href="#juegos">Juegos en grupo</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="inicio" class="hero d-flex align-items-center justify-content-center text-center text-light">
+    <div data-aos="zoom-in">
+      <h1 class="display-4 fw-bold">Vive Cuevo</h1>
+      <p class="lead">Sabor, Tradición y Queso Chaqueño 🍃</p>
+      <p>Descubre el municipio de Cuevo: hospedajes con historia, gastronomía local, la Ruta de la Leche y el Queso Chaqueño más largo de Bolivia.</p>
+      <a href="#hospedaje" class="btn btn-gold mt-3 me-2">Explorar hospedajes</a>
+      <a href="#queso" class="btn btn-outline-gold mt-3">Ruta del Queso</a>
+    </div>
+  </section>
+
+  <!-- HOSPEDAJE -->
+  <section id="hospedaje" class="py-5 bg-light">
+    <div class="container" data-aos="fade-up">
+      <h2 class="text-center mb-3 fw-bold">🏨 Hospedaje en Cuevo</h2>
+      <p class="section-subtitle text-center mb-5">
+        La cámara hotelera de Cuevo reúne hoteles con identidad propia, tradición y hospitalidad chaqueña.
+      </p>
+
+      <div class="row g-4">
+        <!-- Hotel Las Paltas -->
+        <div class="col-md-4" data-aos="zoom-in">
+          <div class="card card-custom h-100">
+            <div class="card-body text-center">
+              <h5 class="card-title fw-bold">Hotel Las Paltas</h5>
+              <p class="text-muted">74 años de historia bajo la sombra de un árbol de palta.</p>
+              <button class="btn btn-outline-gold" data-bs-toggle="modal" data-bs-target="#paltas">Ver más</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hotel María Estela -->
+        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="50">
+          <div class="card card-custom h-100">
+            <div class="card-body text-center">
+              <h5 class="card-title fw-bold">Hotel María Estela</h5>
+              <p class="text-muted">Hotel familiar con 14 habitaciones entre dobles, triples y cuádruples.</p>
+              <button class="btn btn-outline-gold" data-bs-toggle="modal" data-bs-target="#mariaEstela">Ver más</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hotel Punta del Sur -->
+        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+          <div class="card card-custom h-100">
+            <div class="card-body text-center">
+              <h5 class="card-title fw-bold">Hotel Punta del Sur</h5>
+              <p class="text-muted">El hotel más moderno del municipio, con piscina, gimnasio y salón de eventos.</p>
+              <button class="btn btn-outline-gold" data-bs-toggle="modal" data-bs-target="#punta">Ver más</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- La Casona del Viñedo -->
+        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="150">
+          <div class="card card-custom h-100">
+            <div class="card-body text-center">
+              <h5 class="card-title fw-bold">La Casona del Viñedo</h5>
+              <p class="text-muted">Arquitectura colonial, patios y viñedo en su interior.</p>
+              <button class="btn btn-outline-gold" data-bs-toggle="modal" data-bs-target="#casona">Ver más</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Alojamiento Sucre -->
+        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
+          <div class="card card-custom h-100">
+            <div class="card-body text-center">
+              <h5 class="card-title fw-bold">Alojamiento Sucre</h5>
+              <p class="text-muted">El alojamiento con mayor capacidad de Cuevo, ideal para grupos.</p>
+              <button class="btn btn-outline-gold" data-bs-toggle="modal" data-bs-target="#sucre">Ver más</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Granja VATOs -->
+        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="250">
+          <div class="card card-custom h-100">
+            <div class="card-body text-center">
+              <h5 class="card-title fw-bold">Granja Agroturística VATOs</h5>
+              <p class="text-muted">Camping rural entre huertos, vacas y queso artesanal.</p>
+              <button class="btn btn-outline-gold" data-bs-toggle="modal" data-bs-target="#vatos">Ver más</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICIOS DE ALIMENTACIÓN -->
+  <section id="alimentacion" class="py-5">
+    <div class="container" data-aos="fade-up">
+      <h2 class="text-center mb-3 fw-bold">🥗 Servicios de alimentación</h2>
+      <p class="section-subtitle text-center mb-5">
+        En Cuevo, la comida es un acto de tradición y hospitalidad. Más allá de los pocos locales, la verdadera experiencia culinaria cobra vida en los hogares. 
+        Durante fiestas y eventos, muchas familias abren generosamente un espacio en sus hogares para deleitar a los visitantes con platos caseros llenos de sabor y autenticidad. 
+      </p>
+
+      <div class="row g-4">
+        <!-- Hotel María Estela -->
+        <div class="col-md-4" data-aos="zoom-in">
+          <div class="card card-custom h-100">
+            <div class="card-body text-center">
+              <h5 class="card-title fw-bold">Hotel María Estela</h5>
+              <p class="text-muted mb-2">Ofrece <strong>desayunos y restaurante</strong> para huéspedes y visitantes.</p>
+              <p class="mb-1"><strong>WhatsApp:</strong> 71007100</p>
+              <p class="mb-0"><strong>Facebook:</strong> Hotel Maria Estela - Cuevo</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Desayunos Doña Carolina -->
+        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="50">
+          <div class="card card-custom h-100">
+            <div class="card-body text-center">
+              <h5 class="card-title fw-bold">Desayunos Doña Carolina</h5>
+              <p class="text-muted">Desayunos tradicionales cueveños con pan de maíz, bizcochos, queso y café recién preparado.</p>
+              <p class="mb-0 small text-muted">Ideal para comenzar el día con sabores locales.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Restaurantes temporales -->
+        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+          <div class="card card-custom h-100">
+            <div class="card-body text-center">
+              <h5 class="card-title fw-bold">Restaurantes temporales</h5>
+              <p class="text-muted">Durante festividades, varias familias acondicionan sus casas como <strong>restaurantes temporales</strong>, ofreciendo platos típicos a precios accesibles.</p>
+              <p class="mb-0 small text-muted">Una forma directa de apoyar la economía local y probar recetas familiares.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hotel Las Paltas en alimentación -->
+        <div class="col-md-6" data-aos="zoom-in" data-aos-delay="150">
+          <div class="card card-custom h-100">
+            <div class="card-body text-center">
+              <h5 class="card-title fw-bold">Hotel Las Paltas</h5>
+              <p class="text-muted mb-2">Además de hospedaje, ofrece <strong>desayunos y restaurante</strong>, con platos elaborados a partir de productos locales y lácteos de la región.</p>
+              <p class="mb-0"><strong>Facebook:</strong> Hotel Las Paltas</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- La Casona del Viñedo en alimentación -->
+        <div class="col-md-6" data-aos="zoom-in" data-aos-delay="200">
+          <div class="card card-custom h-100">
+            <div class="card-body text-center">
+              <h5 class="card-title fw-bold">La Casona del Viñedo</h5>
+              <p class="text-muted mb-2">Ofrece <strong>desayunos y restaurante</strong> en un ambiente colonial rodeado de viñedos y patios tradicionales.</p>
+              <p class="mb-0"><strong>Facebook:</strong> La Casona del Viñedo Cuevo</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- MODAL LAS PALTAS CON CARRUSEL -->
+  <div class="modal fade" id="paltas" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header bg-gold text-dark">
+          <h5 class="modal-title fw-bold">Hotel Las Paltas</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+
+        <div class="modal-body">
+          <div class="row gy-3 align-items-center">
+            <!-- Texto -->
+            <div class="col-lg-5">
+              <p>El Hotel Las Paltas es pionero en el sector hotelero del municipio de Cuevo, con 74 años de funcionamiento. Su nombre proviene de un gran árbol de palta ubicado en el interior del establecimiento.</p>
+              <p><strong>Habitaciones:</strong> 7 (capacidad 14 personas)</p>
+              <p><strong>Servicios:</strong> wifi, desayuno, restaurante y salón de eventos.</p>
+              <p><strong>Contacto:</strong> Sra. Mariselva Galarza – WhatsApp: 72107643</p>
+            </div>
+
+            <!-- Carrusel -->
+            <div class="col-lg-7">
+              <div id="carouselPaltas"
+                  class="carousel slide hotel-carousel mt-2"
+                  data-bs-ride="carousel"
+                  data-bs-touch="true"
+                  data-bs-interval="5000">
+
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselPaltas" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Imagen 1"></button>
+                  <button type="button" data-bs-target="#carouselPaltas" data-bs-slide-to="1" aria-label="Imagen 2"></button>
+                  <button type="button" data-bs-target="#carouselPaltas" data-bs-slide-to="2" aria-label="Imagen 3"></button>
+                  <button type="button" data-bs-target="#carouselPaltas" data-bs-slide-to="3" aria-label="Imagen 4"></button>
+                  <button type="button" data-bs-target="#carouselPaltas" data-bs-slide-to="4" aria-label="Imagen 5"></button>
+                  <button type="button" data-bs-target="#carouselPaltas" data-bs-slide-to="5" aria-label="Imagen 6"></button>
+                  <button type="button" data-bs-target="#carouselPaltas" data-bs-slide-to="6" aria-label="Imagen 7"></button>
+                  <button type="button" data-bs-target="#carouselPaltas" data-bs-slide-to="7" aria-label="Imagen 8"></button>
+                  <button type="button" data-bs-target="#carouselPaltas" data-bs-slide-to="8" aria-label="Imagen 9"></button>
+                  <button type="button" data-bs-target="#carouselPaltas" data-bs-slide-to="9" aria-label="Imagen 10"></button>
+                </div>
+
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images/Hotel-lasPaltas/Entrada.png" class="d-block w-100" alt="Entrada Hotel Las Paltas" loading="lazy" decoding="async">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/Hotel-lasPaltas/Corredor-Comedor.jpg" class="d-block w-100" alt="Corredor comedor Hotel Las Paltas" loading="lazy" decoding="async">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/Hotel-lasPaltas/Corredor-Comedor1.jpg" class="d-block w-100" alt="Corredor comedor 2 - Hotel Las Paltas" loading="lazy" decoding="async">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/Hotel-lasPaltas/Corredor.jpg" class="d-block w-100" alt="Corredor Hotel Las Paltas" loading="lazy" decoding="async">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/Hotel-lasPaltas/Patio_Paltas.png" class="d-block w-100" alt="Patio Hotel Las Paltas" loading="lazy" decoding="async">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/Hotel-lasPaltas/Patio_Paltas1.jpg" class="d-block w-100" alt="Patio 1 Hotel Las Paltas" loading="lazy" decoding="async">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/Hotel-lasPaltas/Patio_Paltas2.jpg" class="d-block w-100" alt="Patio 2 Hotel Las Paltas" loading="lazy" decoding="async">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/Hotel-lasPaltas/Patio_Paltas3.jpg" class="d-block w-100" alt="Patio 3 Hotel Las Paltas" loading="lazy" decoding="async">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/Hotel-lasPaltas/Patio_Paltas4.jpg" class="d-block w-100" alt="Patio 4 Hotel Las Paltas" loading="lazy" decoding="async">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/Hotel-lasPaltas/Logo_Hotel.jpg" class="d-block w-100" alt="Logo Hotel Las Paltas" loading="lazy" decoding="async">
+                  </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselPaltas" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselPaltas" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Siguiente</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div> <!-- /modal-body -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Hotel María Estela -->
+  <div class="modal fade" id="mariaEstela" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header bg-gold text-dark">
+          <h5 class="modal-title fw-bold">Hotel María Estela</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body">
+          <p>El Hotel María Estela fue creado por dos hermanos que retornaron a Cuevo para emprender. Cuenta con 14 habitaciones entre dobles, triples y cuádruples, organizadas alrededor de patios y corredores.</p>
+          <p><strong>Servicios:</strong> wifi, TV cable, desayuno, restaurante, áreas de descanso y parrillero.</p>
+          <p><strong>Contacto:</strong> Sra. Isabel Vaca – WhatsApp: 74346151 / 71007100</p>
+
+          <div id="carouselMariaEstela" class="carousel slide modal-carousel mt-3" data-bs-ride="carousel" data-bs-interval="5000">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselMariaEstela" data-bs-slide-to="0" class="active" aria-current="true"></button>
+              <button type="button" data-bs-target="#carouselMariaEstela" data-bs-slide-to="1"></button>
+              <button type="button" data-bs-target="#carouselMariaEstela" data-bs-slide-to="2"></button>
+              <button type="button" data-bs-target="#carouselMariaEstela" data-bs-slide-to="3"></button>
+              <button type="button" data-bs-target="#carouselMariaEstela" data-bs-slide-to="4"></button>
+              <button type="button" data-bs-target="#carouselMariaEstela" data-bs-slide-to="5"></button>
+              <button type="button" data-bs-target="#carouselMariaEstela" data-bs-slide-to="6"></button>
+              <button type="button" data-bs-target="#carouselMariaEstela" data-bs-slide-to="7"></button>
+              <button type="button" data-bs-target="#carouselMariaEstela" data-bs-slide-to="8"></button>
+              <button type="button" data-bs-target="#carouselMariaEstela" data-bs-slide-to="9"></button>
+              <button type="button" data-bs-target="#carouselMariaEstela" data-bs-slide-to="10"></button>
+              <button type="button" data-bs-target="#carouselMariaEstela" data-bs-slide-to="11"></button>
+              <button type="button" data-bs-target="#carouselMariaEstela" data-bs-slide-to="12"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/Hotel-Maria-Estela/Entrada.jpg" class="d-block w-100" alt="Entrada Hotel María Estela" loading="lazy" decoding="async">
+              </div>
+              <div class="carousel-item">
+                <img src="images/Hotel-Maria-Estela/Corredor.jpg" class="d-block w-100" alt="Corredor Hotel María Estela" loading="lazy" decoding="async">
+              </div>
+              <div class="carousel-item">
+                <img src="images/Hotel-Maria-Estela/Corredor1.jpg" class="d-block w-100" alt="Corredor 1 Hotel María Estela" loading="lazy" decoding="async">
+              </div>
+              <div class="carousel-item">
+                <img src="images/Hotel-Maria-Estela/Corredor2.jpg" class="d-block w-100" alt="Corredor 2 Hotel María Estela" loading="lazy" decoding="async">
+              </div>
+              <div class="carousel-item">
+                <img src="images/Hotel-Maria-Estela/Pasillo.jpg" class="d-block w-100" alt="Pasillo Hotel María Estela" loading="lazy" decoding="async">
+              </div>
+              <div class="carousel-item">
+                <img src="images/Hotel-Maria-Estela/Patio.png" class="d-block w-100" alt="Patio Hotel María Estela" loading="lazy" decoding="async">
+              </div>
+              <div class="carousel-item">
+                <img src="images/Hotel-Maria-Estela/Patio1.png" class="d-block w-100" alt="Patio 1 Hotel María Estela" loading="lazy" decoding="async">
+              </div>
+              <div class="carousel-item">
+                <img src="images/Hotel-Maria-Estela/Patio2.jpg" class="d-block w-100" alt="Patio 2 Hotel María Estela" loading="lazy" decoding="async">
+              </div>
+              <div class="carousel-item">
+                <img src="images/Hotel-Maria-Estela/Area_Parrillera.jpg" class="d-block w-100" alt="Área parrillera Hotel María Estela" loading="lazy" decoding="async">
+              </div>
+              <div class="carousel-item">
+                <img src="images/Hotel-Maria-Estela/Habitacion_Doble.png" class="d-block w-100" alt="Habitación doble Hotel María Estela" loading="lazy" decoding="async">
+              </div>
+              <div class="carousel-item">
+                <img src="images/Hotel-Maria-Estela/Habitacion_Doble1.jpg" class="d-block w-100" alt="Habitación doble 1 Hotel María Estela" loading="lazy" decoding="async">
+              </div>
+              <div class="carousel-item">
+                <img src="images/Hotel-Maria-Estela/Restaurante.jpg" class="d-block w-100" alt="Restaurante Hotel María Estela" loading="lazy" decoding="async">
+              </div>
+              <div class="carousel-item">
+                <img src="images/Hotel-Maria-Estela/Baño_Compartido.png" class="d-block w-100" alt="Baño compartido Hotel María Estela" loading="lazy" decoding="async">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselMariaEstela" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselMariaEstela" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Siguiente</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Hotel Punta del Sur -->
+  <div class="modal fade" id="punta" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header bg-gold text-dark">
+          <h5 class="modal-title fw-bold">Hotel Punta del Sur</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body">
+          <p>El Hotel Punta del Sur es el establecimiento más moderno del municipio de Cuevo. Ofrece desayuno, almuerzo, bar, gimnasio, piscina y salón de eventos, además de áreas de descanso y parrillera.</p>
+          <p><strong>Habitaciones:</strong> 16 (capacidad 31 personas)</p>
+          <p><strong>Contacto:</strong> Sra. Evangelina Canizares – WhatsApp: 70952872</p>
+
+          <div id="carouselPunta" class="carousel slide modal-carousel mt-3" data-bs-ride="carousel" data-bs-interval="5000">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselPunta" data-bs-slide-to="0" class="active" aria-current="true"></button>
+              <button type="button" data-bs-target="#carouselPunta" data-bs-slide-to="1"></button>
+              <button type="button" data-bs-target="#carouselPunta" data-bs-slide-to="2"></button>
+              <button type="button" data-bs-target="#carouselPunta" data-bs-slide-to="3"></button>
+              <button type="button" data-bs-target="#carouselPunta" data-bs-slide-to="4"></button>
+              <button type="button" data-bs-target="#carouselPunta" data-bs-slide-to="5"></button>
+              <button type="button" data-bs-target="#carouselPunta" data-bs-slide-to="6"></button>
+              <button type="button" data-bs-target="#carouselPunta" data-bs-slide-to="7"></button>
+              <button type="button" data-bs-target="#carouselPunta" data-bs-slide-to="8"></button>
+              <button type="button" data-bs-target="#carouselPunta" data-bs-slide-to="9"></button>
+              <button type="button" data-bs-target="#carouselPunta" data-bs-slide-to="10"></button>
+              <button type="button" data-bs-target="#carouselPunta" data-bs-slide-to="11"></button>
+              <button type="button" data-bs-target="#carouselPunta" data-bs-slide-to="12"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/Hotel-Punta-del-Sur/Entrada.jpg" class="d-block w-100" alt="Entrada Hotel Punta del Sur" loading="lazy" decoding="async">
+              </div>
+              <div class="carousel-item">
+                <img src="images/Hotel-Punta-del-Sur/Area_Descanso.jpg" class="d-block w-100" alt="Área de descanso Hotel Punta del Sur" loading="lazy" decoding="async">
+              </div>
+              <div class="carousel-item">
+                <img src="images/Hotel-Punta-del-Sur/Area_Descanso1.jpg" class="d-block w-100" alt="Área de descanso 1 Hotel Punta del Sur" loading="lazy" decoding="async">
+              </div>
+              <div class="carousel-item">
+                <img src="images/Hotel-Punta-del-Sur/Area_Parrilla.png" class="d-block w-100" alt="Área parrillera Hotel Punta del Sur" loading="lazy" decoding="async">
+              </div>
+              <div class="carousel-item">
+                <img src="images/Hotel-Punta-del-Sur/Balcon.png" class="d-block w-100" alt="Balcón Hotel Punta del Sur" loading="lazy" decoding="async">
+              </div>
+              <div class="carousel-item">
+                <img src="images/Hotel-Punta-del-Sur/Balcon1.png" class="d-block w-100" alt="Balcón 1 Hotel Punta del Sur" loading="lazy" decoding="async">
+              </div>
+              <div class="carousel-item">
+                <img src="images/Hotel-Punta-del-Sur/DescansoOcomedor.png" class="d-block w-100" alt="Sala de descanso/comedor Hotel Punta del Sur" loading="lazy" decoding="async">
+              </div>
+              <div class="carousel-item">
+                <img src="images/Hotel-Punta-del-Sur/DescansoOcomedor1.png" class="d-block w-100" alt="Sala de descanso/comedor 1 Hotel Punta del Sur" loading="lazy" decoding="async">
+              </div>
+              <div class="carousel-item">
+                <img src="images/Hotel-Punta-del-Sur/Eventos.png" class="d-block w-100" alt="Salón de eventos Hotel Punta del Sur" loading="lazy" decoding="async">
+              </div>
+              <div class="carousel-item">
+                <img src="images/Hotel-Punta-del-Sur/Gimnasio.jpg" class="d-block w-100" alt="Gimnasio Hotel Punta del Sur" loading="lazy" decoding="async">
+              </div>
+              <div class="carousel-item">
+                <img src="images/Hotel-Punta-del-Sur/Piscina.png" class="d-block w-100" alt="Piscina Hotel Punta del Sur" loading="lazy" decoding="async">
+              </div>
+              <div class="carousel-item">
+                <img src="images/Hotel-Punta-del-Sur/Habitacion_Doble.jpg" class="d-block w-100" alt="Habitación doble Hotel Punta del Sur" loading="lazy" decoding="async">
+              </div>
+              <div class="carousel-item">
+                <img src="images/Hotel-Punta-del-Sur/Habitacion_Doble1.png" class="d-block w-100" alt="Habitación doble 1 Hotel Punta del Sur" loading="lazy" decoding="async">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselPunta" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselPunta" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Siguiente</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- La Casona del Viñedo -->
+  <div class="modal fade" id="casona" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header bg-gold text-dark">
+          <h5 class="modal-title fw-bold">Hotel La Casona del Viñedo</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body">
+          <p>La Casona del Viñedo se caracteriza por su arquitectura colonial y la presencia de un viñedo en su interior. Sus ambientes conservan la esencia de las casonas tradicionales chaqueñas.</p>
+          <p><strong>Habitaciones:</strong> 5 (capacidad 10 personas)</p>
+          <p><strong>Servicios:</strong> wifi, desayuno, restaurante y bar.</p>
+          <p><strong>Contacto:</strong> Dr. Einar Gonzáles – WhatsApp: 72181915</p>
+
+          <div id="carouselCasona" class="carousel slide modal-carousel mt-3" data-bs-ride="carousel" data-bs-interval="5000">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselCasona" data-bs-slide-to="0" class="active" aria-current="true"></button>
+              <button type="button" data-bs-target="#carouselCasona" data-bs-slide-to="1"></button>
+              <button type="button" data-bs-target="#carouselCasona" data-bs-slide-to="2"></button>
+              <button type="button" data-bs-target="#carouselCasona" data-bs-slide-to="3"></button>
+              <button type="button" data-bs-target="#carouselCasona" data-bs-slide-to="4"></button>
+              <button type="button" data-bs-target="#carouselCasona" data-bs-slide-to="5"></button>
+              <button type="button" data-bs-target="#carouselCasona" data-bs-slide-to="6"></button>
+              <button type="button" data-bs-target="#carouselCasona" data-bs-slide-to="7"></button>
+              <button type="button" data-bs-target="#carouselCasona" data-bs-slide-to="8"></button>
+              <button type="button" data-bs-target="#carouselCasona" data-bs-slide-to="9"></button>
+              <button type="button" data-bs-target="#carouselCasona" data-bs-slide-to="10"></button>
+              <button type="button" data-bs-target="#carouselCasona" data-bs-slide-to="11"></button>
+              <button type="button" data-bs-target="#carouselCasona" data-bs-slide-to="12"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/Hotel-la-Casona-del-Viñedo/Casona_Viñedo.png" class="d-block w-100" alt="Fachada y viñedo" loading="lazy" decoding="async">
+              </div>
+              <div class="carousel-item">
+                <img src="images/Hotel-la-Casona-del-Viñedo/Alfombra_Cuero_Chivo.png" class="d-block w-100" alt="Detalle interior con alfombra de cuero" loading="lazy" decoding="async">
+              </div>
+              <div class="carousel-item">
+                <img src="images/Hotel-la-Casona-del-Viñedo/Corredor.png" class="d-block w-100" alt="Corredor de la casona" loading="lazy" decoding="async">
+              </div>
+              <div class="carousel-item">
+                <img src="images/Hotel-la-Casona-del-Viñedo/Corredor1.png" class="d-block w-100" alt="Corredor 1 de la casona" loading="lazy" decoding="async">
+              </div>
+              <div class="carousel-item">
+                <img src="images/Hotel-la-Casona-del-Viñedo/Patio.png" class="d-block w-100" alt="Patio principal" loading="lazy" decoding="async">
+              </div>
+              <div class="carousel-item">
+                <img src="images/Hotel-la-Casona-del-Viñedo/Patio1.png" class="d-block w-100" alt="Patio 1" loading="lazy" decoding="async">
+              </div>
+              <div class="carousel-item">
+                <img src="images/Hotel-la-Casona-del-Viñedo/Patio2.png" class="d-block w-100" alt="Patio 2" loading="lazy" decoding="async">
+              </div>
+              <div class="carousel-item">
+                <img src="images/Hotel-la-Casona-del-Viñedo/Viñedo.png" class="d-block w-100" alt="Viñedo interior" loading="lazy" decoding="async">
+              </div>
+              <div class="carousel-item">
+                <img src="images/Hotel-la-Casona-del-Viñedo/Restaurante.png" class="d-block w-100" alt="Restaurante de la casona" loading="lazy" decoding="async">
+              </div>
+              <div class="carousel-item">
+                <img src="images/Hotel-la-Casona-del-Viñedo/Habitacion_doble.png" class="d-block w-100" alt="Habitación doble" loading="lazy" decoding="async">
+              </div>
+              <div class="carousel-item">
+                <img src="images/Hotel-la-Casona-del-Viñedo/Habitacion_Familiar.png" class="d-block w-100" alt="Habitación familiar" loading="lazy" decoding="async">
+              </div>
+              <div class="carousel-item">
+                <img src="images/Hotel-la-Casona-del-Viñedo/Habitacion_Familiar1.png" class="d-block w-100" alt="Habitación familiar 1" loading="lazy" decoding="async">
+              </div>
+              <div class="carousel-item">
+                <img src="images/Hotel-la-Casona-del-Viñedo/Ventana.png" class="d-block w-100" alt="Ventana con vista" loading="lazy" decoding="async">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselCasona" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselCasona" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Siguiente</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Alojamiento Sucre -->
+  <div class="modal fade" id="sucre" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header bg-gold text-dark">
+          <h5 class="modal-title fw-bold">Alojamiento Sucre</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body">
+          <p>El Alojamiento Sucre debe su nombre a la ciudad de origen de sus propietarios. Es el establecimiento con mayor número de habitaciones, ideal para familias y grupos.</p>
+          <p><strong>Habitaciones:</strong> 21 (capacidad 51 personas)</p>
+          <p><strong>Servicios:</strong> parque para niños, canchas deportivas, TV en habitaciones, baños privados.</p>
+          <p><strong>Contacto:</strong> Sra. Elvira Ríos – WhatsApp: 71312238 / 73148500</p>
+
+          <div id="carouselSucre" class="carousel slide modal-carousel mt-3" data-bs-ride="carousel" data-bs-interval="5000">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselSucre" data-bs-slide-to="0" class="active" aria-current="true"></button>
+              <button type="button" data-bs-target="#carouselSucre" data-bs-slide-to="1"></button>
+              <button type="button" data-bs-target="#carouselSucre" data-bs-slide-to="2"></button>
+              <button type="button" data-bs-target="#carouselSucre" data-bs-slide-to="3"></button>
+              <button type="button" data-bs-target="#carouselSucre" data-bs-slide-to="4"></button>
+              <button type="button" data-bs-target="#carouselSucre" data-bs-slide-to="5"></button>
+              <button type="button" data-bs-target="#carouselSucre" data-bs-slide-to="6"></button>
+              <button type="button" data-bs-target="#carouselSucre" data-bs-slide-to="7"></button>
+              <button type="button" data-bs-target="#carouselSucre" data-bs-slide-to="8"></button>
+              <button type="button" data-bs-target="#carouselSucre" data-bs-slide-to="9"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/Alojamiento-Sucre/Entrada.jpg" class="d-block w-100" alt="Entrada Alojamiento Sucre" loading="lazy" decoding="async">
+              </div>
+              <div class="carousel-item">
+                <img src="images/Alojamiento-Sucre/Cancha_Futsal_Basquetbol.png" class="d-block w-100" alt="Cancha de futsal y básquet" loading="lazy" decoding="async">
+              </div>
+              <div class="carousel-item">
+                <img src="images/Alojamiento-Sucre/Parque_para_Niños.png" class="d-block w-100" alt="Parque para niños" loading="lazy" decoding="async">
+              </div>
+              <div class="carousel-item">
+                <img src="images/Alojamiento-Sucre/Patio.png" class="d-block w-100" alt="Patio principal Alojamiento Sucre" loading="lazy" decoding="async">
+              </div>
+              <div class="carousel-item">
+                <img src="images/Alojamiento-Sucre/Patio1.png" class="d-block w-100" alt="Patio 1 Alojamiento Sucre" loading="lazy" decoding="async">
+              </div>
+              <div class="carousel-item">
+                <img src="images/Alojamiento-Sucre/Habitacion_Doble.png" class="d-block w-100" alt="Habitación doble Alojamiento Sucre" loading="lazy" decoding="async">
+              </div>
+              <div class="carousel-item">
+                <img src="images/Alojamiento-Sucre/Habitacion_Matrimonial.png" class="d-block w-100" alt="Habitación matrimonial" loading="lazy" decoding="async">
+              </div>
+              <div class="carousel-item">
+                <img src="images/Alojamiento-Sucre/Habitacion_Matrimonial_Familiar.png" class="d-block w-100" alt="Habitación matrimonial/familiar" loading="lazy" decoding="async">
+              </div>
+              <div class="carousel-item">
+                <img src="images/Alojamiento-Sucre/TV_Habitaciones.jpg" class="d-block w-100" alt="TV en habitaciones" loading="lazy" decoding="async">
+              </div>
+              <div class="carousel-item">
+                <img src="images/Alojamiento-Sucre/Baño_Privado.jpg" class="d-block w-100" alt="Baño privado" loading="lazy" decoding="async">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselSucre" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselSucre" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Siguiente</span>
+            </button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Granja VATOs Hospedaje -->
+  <div class="modal fade" id="vatos" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header bg-gold text-dark">
+          <h5 class="modal-title fw-bold">Granja Agroturística VATOs</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body">
+          <p>VATOs es un establecimiento agroturístico de tipo camping, rodeado de naturaleza. Cuenta con un huerto de hortalizas y una pequeña granja avícola.</p>
+          <p>Ofrece desayuno campestre y la posibilidad de estar en contacto con el ganado, disfrutando de la vida rural del Chaco.</p>
+          <p><strong>Capacidad:</strong> aprox. 25 espacios de camping (50 personas)</p>
+          <p><strong>Contacto:</strong> Adriana Torrico – WhatsApp: 74608467 / 71007100</p>
+
+          <div id="carouselVatosHosp" class="carousel slide modal-carousel mt-3" data-bs-ride="carousel" data-bs-interval="5000">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselVatosHosp" data-bs-slide-to="0" class="active" aria-current="true"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/Granja-agroturistica-VATOs/Entrada1.png" class="d-block w-100" alt="Entrada Granja VATOs" loading="lazy" decoding="async">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselVatosHosp" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselVatosHosp" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Siguiente</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- COMIDAS TÍPICAS -->
+  <section id="comidas" class="py-5">
+    <div class="container" data-aos="fade-up">
+      <h2 class="text-center mb-3 fw-bold">🍽️ Comidas Típicas de Cuevo</h2>
+      <p class="section-subtitle text-center mb-5">
+        La gastronomía de Cuevo está profundamente ligada a la tierra: maíz, poroto, yuca, calabaza y carnes de res,
+        cerdo y aves se combinan en recetas tradicionales preparadas, en muchos casos, con productos que las propias
+        familias siembran y cosechan. Cada plato es un reflejo del esfuerzo de la gente y de la riqueza del Chaco boliviano.
+      </p>
+
+      <div class="row g-4">
+        <!-- Chirriadas -->
+        <div class="col-md-4" data-aos="zoom-in">
+          <div class="card card-custom h-100">
+            <div class="card-body text-center">
+              <h5 class="card-title">🌽 Chirriadas</h5>
+              <p class="text-muted">Tortillas de maíz blando, perfectas para el desayuno o la merienda.</p>
+              <button class="btn btn-outline-gold" data-bs-toggle="modal" data-bs-target="#chirriadas">Ver receta</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Viajerito -->
+        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="50">
+          <div class="card card-custom h-100">
+            <div class="card-body text-center">
+              <h5 class="card-title">🥩 Viajerito</h5>
+              <p class="text-muted">Bocadillo de maíz, queso y charque, compañero de los vaqueros.</p>
+              <button class="btn btn-outline-gold" data-bs-toggle="modal" data-bs-target="#viajerito">Ver receta</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Locro -->
+        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+          <div class="card card-custom h-100">
+            <div class="card-body text-center">
+              <h5 class="card-title">🍲 Locro de gallina criolla</h5>
+              <p class="text-muted">Sopa espesa con maíz, verduras y gallina criolla.</p>
+              <button class="btn btn-outline-gold" data-bs-toggle="modal" data-bs-target="#locro">Ver receta</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tamales -->
+        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="150">
+          <div class="card card-custom h-100">
+            <div class="card-body text-center">
+              <h5 class="card-title">🌾 Tamales</h5>
+              <p class="text-muted">Masa de maíz rellena, envuelta en chalas y hervida.</p>
+              <button class="btn btn-outline-gold" data-bs-toggle="modal" data-bs-target="#tamales">Ver receta</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Guiso de cumanda -->
+        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
+          <div class="card card-custom h-100">
+            <div class="card-body text-center">
+              <h5 class="card-title">🥘 Guiso de cumanda</h5>
+              <p class="text-muted">Guiso nutritivo con granos, cerdo y vegetales.</p>
+              <button class="btn btn-outline-gold" data-bs-toggle="modal" data-bs-target="#cumanda">Ver receta</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Chancho galleta -->
+        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="250">
+          <div class="card card-custom h-100">
+            <div class="card-body text-center">
+              <h5 class="card-title">🐷 Chancho galleta</h5>
+              <p class="text-muted">Lechón a la cruz, de cuero crocante y carne jugosa.</p>
+              <button class="btn btn-outline-gold" data-bs-toggle="modal" data-bs-target="#chancho">Ver receta</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MODALES COMIDAS -->
+  <div class="modal fade" id="chirriadas" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header bg-gold text-dark">
+          <h5 class="modal-title fw-bold">Chirriadas</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body">
+          <p>Las chirriadas se elaboran con harina de maíz blando, manteca y leche, formando una masa semilíquida que se cocina en sartén o piedra, primero de un lado y luego del otro.</p>
+          <p>Se sirven calientes y son ideales para acompañar té, café o poro.</p>
+
+          <div id="carouselChirriadas" class="carousel slide modal-carousel mt-3" data-bs-ride="carousel" data-bs-interval="5000">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselChirriadas" data-bs-slide-to="0" class="active" aria-current="true"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/Comidas-Tipicas/Chirriadas.jpg" class="d-block w-100" alt="Chirriadas" loading="lazy" decoding="async">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselChirriadas" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselChirriadas" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Siguiente</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="viajerito" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header bg-gold text-dark">
+          <h5 class="modal-title fw-bold">Viajerito</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body">
+          <p>El viajerito se prepara con harina de maíz duro, queso rallado y charque desmenuzado. La mezcla se amasa con agua tibia o leche y manteca de cerdo, formando pequeñas bolas aplanadas que se hornean.</p>
+          <p>Era consumido por vaqueros durante el pastoreo, por su practicidad y aporte de energía. Incluso podía convertirse en una sopa espesa al añadirse a agua caliente.</p>
+
+          <div id="carouselViajerito" class="carousel slide modal-carousel mt-3" data-bs-ride="carousel" data-bs-interval="5000">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselViajerito" data-bs-slide-to="0" class="active" aria-current="true"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/Comidas-Tipicas/Viajerito.png" class="d-block w-100" alt="Viajerito" loading="lazy" decoding="async">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselViajerito" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselViajerito" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Siguiente</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="locro" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header bg-gold text-dark">
+          <h5 class="modal-title fw-bold">Locro de gallina criolla</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body">
+          <p>Se hierve la gallina criolla con apio y se retira la espuma varias veces. Luego se añade frangollo de maíz y, más adelante, zanahorias, cebolla y pimentón picados.</p>
+          <p>Se sirve caliente, decorado con perejil picado, como una sopa espesa y reconfortante típica del Chaco.</p>
+
+          <div id="carouselLocro" class="carousel slide modal-carousel mt-3" data-bs-ride="carousel" data-bs-interval="5000">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselLocro" data-bs-slide-to="0" class="active" aria-current="true"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/Comidas-Tipicas/Locro_Gallina_Criolla.png" class="d-block w-100" alt="Locro de gallina criolla" loading="lazy" decoding="async">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselLocro" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselLocro" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Siguiente</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="tamales" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header bg-gold text-dark">
+          <h5 class="modal-title fw-bold">Tamales</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body">
+          <p>Se seleccionan mazorcas grandes de maíz duro, se desgranan y se elabora una harina que luego se mezcla con manteca y caldo, formando una masa suave.</p>
+          <p>La masa se rellena y envuelve en chalas de maíz, amarrando cada tamal. Se cocinan en agua hirviendo hasta que alcanzan la textura adecuada.</p>
+
+          <div id="carouselTamales" class="carousel slide modal-carousel mt-3" data-bs-ride="carousel" data-bs-interval="5000">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselTamales" data-bs-slide-to="0" class="active" aria-current="true"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/Comidas-Tipicas/Tamales.png" class="d-block w-100" alt="Tamales" loading="lazy" decoding="async">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselTamales" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselTamales" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Siguiente</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="cumanda" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header bg-gold text-dark">
+          <h5 class="modal-title fw-bold">Guiso de cumanda</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body">
+          <p>Se remojan y cocinan los granos de cumanda. En una cacerola se sellan los recortes de carne de cerdo y se incorporan vegetales, urucú, salsa de tomate y la cumanda cocida.</p>
+          <p>Se agrega zapallo, camote y laurel, permitiendo que todos los sabores se integren. Se sirve con cebollín verde por encima.</p>
+
+          <div id="carouselCumanda" class="carousel slide modal-carousel mt-3" data-bs-ride="carousel" data-bs-interval="5000">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselCumanda" data-bs-slide-to="0" class="active" aria-current="true"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/Comidas-Tipicas/Guiso_de_Cumanda.png" class="d-block w-100" alt="Guiso de cumanda" loading="lazy" decoding="async">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselCumanda" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselCumanda" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Siguiente</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="chancho" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header bg-gold text-dark">
+          <h5 class="modal-title fw-bold">Chancho galleta</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body">
+          <p>Se elige un lechón tierno que se sumerge en salmuera desde la noche anterior. Al día siguiente se condimenta, se ensarta en una cruz y se cocina sobre brasas durante varias horas.</p>
+          <p>El cuero se unta con mantequilla para lograr una textura crocante. Se sirve acompañado de papa, ensalada y mote.</p>
+
+          <div id="carouselChancho" class="carousel slide modal-carousel mt-3" data-bs-ride="carousel" data-bs-interval="5000">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselChancho" data-bs-slide-to="0" class="active" aria-current="true"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/Comidas-Tipicas/Chancho_Galleta.jpg" class="d-block w-100" alt="Chancho galleta" loading="lazy" decoding="async">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselChancho" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselChancho" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Siguiente</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- RUTA DEL QUESO -->
+  <section id="queso" class="py-5 bg-light">
+    <div class="container" data-aos="fade-up">
+      <h2 class="text-center mb-3 fw-bold">🧀 Ruta del Queso Chaqueño</h2>
+      <p class="section-subtitle text-center mb-5">
+        Cuevo se destaca por su producción de queso artesanal, con técnicas tradicionales y razas de ganado adaptadas al clima chaqueño.
+      </p>
+
+      <div class="row g-4">
+        <!-- Utensilios -->
+        <div class="col-md-4" data-aos="zoom-in">
+          <div class="card card-custom h-100">
+            <div class="card-body text-center">
+              <h5 class="card-title fw-bold">Utensilios queseros</h5>
+              <p class="text-muted">Ordeñadora, lecheras, prensas y moldes que dan forma al queso.</p>
+              <button class="btn btn-outline-gold" data-bs-toggle="modal" data-bs-target="#utensilios">Ver más</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hacienda Guaraygue -->
+        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="50">
+          <div class="card card-custom h-100">
+            <div class="card-body text-center">
+              <h5 class="card-title fw-bold">Hacienda Aguaraygue</h5>
+              <p class="text-muted">Sistema de alimentación autosuficiente para un queso de sabor único.</p>
+              <button class="btn btn-outline-gold" data-bs-toggle="modal" data-bs-target="#guaraygue">Ver más</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Granja VATOs Quesos -->
+        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+          <div class="card card-custom h-100">
+            <div class="card-body text-center">
+              <h5 class="card-title fw-bold">Granja Agroturística VATOs</h5>
+              <p class="text-muted">Queso estirado, con orégano, ají, requesón cremoso y más.</p>
+              <button class="btn btn-outline-gold" data-bs-toggle="modal" data-bs-target="#vatosQueso">Ver más</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MODAL ACTUALIZADO: UTENSILIOS -->
+<div class="modal fade" id="utensilios" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header bg-gold text-dark">
+        <h5 class="modal-title fw-bold">Utensilios para la elaboración del queso</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+      </div>
+      <div class="modal-body">
+        <p>La elaboración de queso en Cuevo combina utensilios tradicionales y tecnologías modernas: ordeñadora mecánica, lecheras, filtros, balanza, termómetro industrial, prensas y moldes de madera o acero, además de cuajo líquido y en polvo.</p>
+        <p>Estos elementos permiten obtener diferentes tipos de queso, manteniendo la autenticidad de la producción láctea chaqueña y evidenciando la importancia económica y cultural de esta actividad.</p>
+
+        <div id="carouselUtensilios" class="carousel slide modal-carousel mt-3" data-bs-ride="carousel" data-bs-interval="5000">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselUtensilios" data-bs-slide-to="0" class="active" aria-current="true"></button>
+            <button type="button" data-bs-target="#carouselUtensilios" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carouselUtensilios" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#carouselUtensilios" data-bs-slide-to="3"></button>
+            <button type="button" data-bs-target="#carouselUtensilios" data-bs-slide-to="4"></button>
+            <button type="button" data-bs-target="#carouselUtensilios" data-bs-slide-to="5"></button>
+            <button type="button" data-bs-target="#carouselUtensilios" data-bs-slide-to="6"></button>
+            <button type="button" data-bs-target="#carouselUtensilios" data-bs-slide-to="7"></button>
+            <button type="button" data-bs-target="#carouselUtensilios" data-bs-slide-to="8"></button>
+            <button type="button" data-bs-target="#carouselUtensilios" data-bs-slide-to="9"></button>
+            <button type="button" data-bs-target="#carouselUtensilios" data-bs-slide-to="10"></button>
+            <button type="button" data-bs-target="#carouselUtensilios" data-bs-slide-to="11"></button>
+            <button type="button" data-bs-target="#carouselUtensilios" data-bs-slide-to="12"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/Utensillos/Balanzas.png" class="d-block w-100" alt="Balanzas" loading="lazy" decoding="async">
+            </div>
+            <div class="carousel-item">
+              <img src="images/Utensillos/Colador.png" class="d-block w-100" alt="Colador" loading="lazy" decoding="async">
+            </div>
+            <div class="carousel-item">
+              <img src="images/Utensillos/Cuajo_en_Polvo.png" class="d-block w-100" alt="Cuajo en polvo" loading="lazy" decoding="async">
+            </div>
+            <div class="carousel-item">
+              <img src="images/Utensillos/Cuajo_Liquido.png" class="d-block w-100" alt="Cuajo líquido" loading="lazy" decoding="async">
+            </div>
+            <div class="carousel-item">
+              <img src="images/Utensillos/Lechera.png" class="d-block w-100" alt="Lechera" loading="lazy" decoding="async">
+            </div>
+            <div class="carousel-item">
+              <img src="images/Utensillos/Molde_Madera.png" class="d-block w-100" alt="Molde de madera" loading="lazy" decoding="async">
+            </div>
+            <div class="carousel-item">
+              <img src="images/Utensillos/Moldes_Acero.png" class="d-block w-100" alt="Moldes de acero" loading="lazy" decoding="async">
+            </div>
+            <div class="carousel-item">
+              <img src="images/Utensillos/Olla.png" class="d-block w-100" alt="Olla" loading="lazy" decoding="async">
+            </div>
+            <div class="carousel-item">
+              <img src="images/Utensillos/Ordeñadora_Mecanica.png" class="d-block w-100" alt="Ordeñadora mecánica" loading="lazy" decoding="async">
+            </div>
+            <div class="carousel-item">
+              <img src="images/Utensillos/Prensa.png" class="d-block w-100" alt="Prensa" loading="lazy" decoding="async">
+            </div>
+            <div class="carousel-item">
+              <img src="images/Utensillos/Prensa_Madera.png" class="d-block w-100" alt="Prensa de madera" loading="lazy" decoding="async">
+            </div>
+            <div class="carousel-item">
+              <img src="images/Utensillos/Recipiente.png" class="d-block w-100" alt="Recipiente" loading="lazy" decoding="async">
+            </div>
+            <div class="carousel-item">
+              <img src="images/Utensillos/Termometro_Industrial.png" class="d-block w-100" alt="Termómetro industrial" loading="lazy" decoding="async">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselUtensilios" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselUtensilios" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+ <div class="modal fade" id="guaraygue" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header bg-gold text-dark">
+        <h5 class="modal-title fw-bold">Hacienda Aguaraygue</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+      </div>
+
+      <div class="modal-body">
+        <p>
+          Hacienda Aguaraygue cuenta con un espacio cómodo y exclusivo para recibir hasta 50 personas. 
+          Los visitantes tienen la oportunidad única de sumergirse en la fascinante vida de un ganadero lechero.
+        </p>
+        <p>
+          La experiencia permite conocer detalladamente el día a día en el campo, desde los minuciosos cuidados 
+          y la alimentación del ganado, hasta la extracción artesanal de la leche. Es una vivencia educativa que 
+          honra la tradición productiva del Chaco Cruceño. Para culminar la experiencia, se invita a los turistas 
+          a ver y degustar distintos tipos de quesos producidos en la hacienda.
+        </p>
+        <p>
+          Hacienda Aguaraygue promete una jornada inolvidable llena de conocimiento, sabor auténtico y conexión 
+          con el corazón del campo ganadero.
+        </p>
+
+        <div id="carouselGuaraygue" class="carousel slide modal-carousel mt-3" data-bs-ride="carousel" data-bs-interval="5000">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselGuaraygue" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Imagen 1"></button>
+            <button type="button" data-bs-target="#carouselGuaraygue" data-bs-slide-to="1" aria-label="Imagen 2"></button>
+            <button type="button" data-bs-target="#carouselGuaraygue" data-bs-slide-to="2" aria-label="Imagen 3"></button>
+            <button type="button" data-bs-target="#carouselGuaraygue" data-bs-slide-to="3" aria-label="Imagen 4"></button>
+            <button type="button" data-bs-target="#carouselGuaraygue" data-bs-slide-to="4" aria-label="Imagen 5"></button>
+          </div>
+
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/Hacienda-Guaraygue/Entrada1.png" class="d-block w-100" alt="Entrada principal" loading="lazy" decoding="async">
+            </div>
+            <div class="carousel-item">
+              <img src="images/Hacienda-Guaraygue/Entrada.png" class="d-block w-100" alt="Letrero de la hacienda" loading="lazy" decoding="async">
+            </div>
+            <div class="carousel-item">
+              <img src="images/Hacienda-Guaraygue/Zona_Descanso.png" class="d-block w-100" alt="Zona de descanso" loading="lazy" decoding="async">
+            </div>
+            <div class="carousel-item">
+              <img src="images/Hacienda-Guaraygue/Ordeña.png" class="d-block w-100" alt="Ordeño de vaca" loading="lazy" decoding="async">
+            </div>
+            <div class="carousel-item">
+              <img src="images/Hacienda-Guaraygue/Corral.png" class="d-block w-100" alt="Corral de vacas" loading="lazy" decoding="async">
+            </div>
+          </div>
+
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselGuaraygue" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselGuaraygue" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <div class="modal fade" id="vatosQueso" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header bg-gold text-dark">
+          <h5 class="modal-title fw-bold">Granja Agroturística VATOs</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body">
+          <p>La Granja VATO's extiende una cálida bienvenida a sus visitantes en un espacio cómodo y exclusivo con capacidad para 50 personas. Aquí, el turista tiene la oportunidad única de sumergirse en la fascinante y tradicional vida de un ganadero lechero.</p>
+          <p>La granja es un centro productivo integral, especializado en la cría de ganado vacuno para la elaboración de leche y quesos, y la producción de hortalizas, miel de abeja, y otros productos del campo.</p>
+          <p>Esta granja recibe a turistas los fines de semana con una oferta gastronómica. se sirve desayuno campestre, que incluye la ambrosía, que es una mezcla de licor con leche ordeñada ante la mirada del visitante. La ambrosía es una de las actividades que permite a los visitantes conocer de cerca el trabajo de campo.</p>
+          <p>El lugar cuenta con áreas de camping, área infantil, parrillas y cocina para quienes deseen preparar sus propios alimentos.</p>
+          <p>Una nueva propuesta de Vatos es “Granjero por un día”, que permite a los visitantes realizar la labor cotidiana de la gente de campo: cosechar sus propias hortalizas, ordeñar vacas y elaborar queso, entre otros.</p>
+          <p>Granja VATO's ofrece una combinación perfecta de educación, sabor y descanso en un entorno natural.</p>
+
+          <div id="carouselVatosQueso" class="carousel slide modal-carousel mt-3" data-bs-ride="carousel" data-bs-interval="5000">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselVatosQueso" data-bs-slide-to="0" class="active" aria-current="true"></button>
+              <button type="button" data-bs-target="#carouselVatosQueso" data-bs-slide-to="1"></button>
+              <button type="button" data-bs-target="#carouselVatosQueso" data-bs-slide-to="2"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/Granja-agroturistica-VATOs/Entrada1.png" class="d-block w-100" alt="Queso estirado" loading="lazy" decoding="async">
+              </div>
+              <div class="carousel-item">
+                <img src="images/Granja-agroturistica-VATOs/Establo.png" class="d-block w-100" alt="Requesón cremoso" loading="lazy" decoding="async">
+              </div>
+              <div class="carousel-item">
+                <img src="images/Granja-agroturistica-VATOs/Personas.png" class="d-block w-100" alt="Queso con orégano" loading="lazy" decoding="async">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselVatosQueso" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselVatosQueso" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Siguiente</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- VIDEOS DE LA RUTA DEL QUESO -->
+  <section id="videos-queso" class="py-5">
+    <div class="container" data-aos="fade-up">
+      <h2 class="text-center mb-3 fw-bold">🎥 Videos de la Ruta del Queso</h2>
+      <p class="section-subtitle text-center mb-5">
+        Te dejamos algunos videos que muestran la experiencia en Cuevo: la Ruta de la Leche y el Queso,
+        a sus productores y el ambiente del municipio durante las actividades turísticas.
+      </p>
+
+      <div class="row g-4">
+        <!-- Video 1 -->
+        <div class="col-md-4" data-aos="zoom-in">
+          <div class="card card-custom video-card h-100">
+            <div class="ratio ratio-16x9">
+              <video controls preload="metadata">
+                <!-- 👇 Cambia el nombre del archivo por el real -->
+                <source src="videos/Bienvenido_a_Cuevo.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="card-body text-center">
+              <h5 class="card-title fw-bold">Bienvenidos a Cuevo</h5>
+              <p class="text-muted mb-0">
+                Un vistazo del Bello pueblo de Cuevo y su Ruta del Queso Chaqueño.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Video 2 -->
+        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="50">
+          <div class="card card-custom video-card h-100">
+            <div class="ratio ratio-16x9">
+              <video controls preload="metadata">
+                <!-- 👇 Cambia el nombre del archivo por el real -->
+                <source src="videos/Video2.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="card-body text-center">
+              <h5 class="card-title fw-bold">Fiesta del Queso</h5>
+              <p class="text-muted mb-0">
+                Video de la fiesta anual del queso en Cuevo.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Video 3 -->
+        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+          <div class="card card-custom video-card h-100">
+            <div class="ratio ratio-16x9">
+              <video controls preload="metadata">
+                <!-- 👇 Cambia el nombre del archivo por el real -->
+                <source src="videos/Vistas_de_Cuevo.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="card-body text-center">
+              <h5 class="card-title fw-bold">Las vistas de Cuevo</h5>
+              <p class="text-muted mb-0">
+                Un vistazo sobre los paisajes que se pueden visitar en Cuevo.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- TIPOS DE QUESOS -->
+  <section id="tipos-queso" class="py-5">
+    <div class="container" data-aos="fade-up">
+      <h2 class="text-center mb-3 fw-bold">🧀 Tipos de Quesos Chaqueños</h2>
+      <p class="section-subtitle text-center mb-5">
+        Estos son algunos de los quesos elaborados en Cuevo, cada uno con características propias según su textura,
+        tiempo de maduración y forma de consumo. Todos nacen del trabajo de familias productoras del Chaco.
+      </p>
+
+      <!-- Galería horizontal -->
+      <div class="cheese-gallery">
+        <!-- Queso compacto VATOs -->
+        <button class="card card-custom cheese-card" type="button"
+                data-bs-toggle="modal" data-bs-target="#quesoCompactoVatos">
+          <img src="images/Ruta-Queso-Chaqueño/QuesoCompacto_GranjaAgroturisticaVATOs.png"
+               alt="Queso compacto de la Granja VATOs" class="cheese-thumb" loading="lazy" decoding="async">
+          <div class="card-body text-center">
+            <span class="cheese-tag">Granja VATOs</span>
+            <h5 class="card-title mt-2">Queso compacto</h5>
+            <p class="text-muted mb-0">Queso de masa firme, pensado para consumo diario y tablas sencillas.</p>
+          </div>
+        </button>
+
+        <!-- Queso compacto cuadrado Hacienda Guaraygue -->
+        <button class="card card-custom cheese-card" type="button"
+                data-bs-toggle="modal" data-bs-target="#quesoCompactoCuadrado">
+          <img src="images/Ruta-Queso-Chaqueño/QuesoCompactoCuadrado_HaciendaGuaraygue.png"
+               alt="Queso compacto cuadrado Hacienda Guaraygue" class="cheese-thumb" loading="lazy" decoding="async">
+          <div class="card-body text-center">
+            <span class="cheese-tag">Hacienda Aguaraygue</span>
+            <h5 class="card-title mt-2">Queso compacto cuadrado</h5>
+            <p class="text-muted mb-0">Formato cuadrado, fácil de cortar y porcionar en bandejas.</p>
+          </div>
+        </button>
+
+        <!-- Queso compacto redondo Hacienda Guaraygue -->
+        <button class="card card-custom cheese-card" type="button"
+                data-bs-toggle="modal" data-bs-target="#quesoCompactoRedondo">
+          <img src="images/Ruta-Queso-Chaqueño/QuesoCompactoRedondo_HaciendaGuaraygue.png"
+               alt="Queso compacto redondo Hacienda Guaraygue" class="cheese-thumb" loading="lazy" decoding="async">
+          <div class="card-body text-center">
+            <span class="cheese-tag">Hacienda Aguaraygue</span>
+            <h5 class="card-title mt-2">Queso compacto redondo</h5>
+            <p class="text-muted mb-0">Pieza redonda tradicional, ideal para madurar o consumir fresco.</p>
+          </div>
+        </button>
+
+        <!-- Queso con ají -->
+        <button class="card card-custom cheese-card" type="button"
+                data-bs-toggle="modal" data-bs-target="#quesoConAji">
+          <img src="images/Ruta-Queso-Chaqueño/QuesoConAji_GranjaAgroturisticaVATOs.png"
+               alt="Queso con ají de la Granja VATOs" class="cheese-thumb" loading="lazy" decoding="async">
+          <div class="card-body text-center">
+            <span class="cheese-tag">Granja VATOs</span>
+            <h5 class="card-title mt-2">Queso con ají</h5>
+            <p class="text-muted mb-0">Queso con toques picantes, pensado para quienes buscan más intensidad.</p>
+          </div>
+        </button>
+
+        <!-- Queso con orégano -->
+        <button class="card card-custom cheese-card" type="button"
+                data-bs-toggle="modal" data-bs-target="#quesoConOregano">
+          <img src="images/Ruta-Queso-Chaqueño/QuesoConOregano_GrancaAgroturisticaVATOs.png"
+               alt="Queso con orégano de la Granja VATOs" class="cheese-thumb" loading="lazy" decoding="async">
+          <div class="card-body text-center">
+            <span class="cheese-tag">Granja VATOs</span>
+            <h5 class="card-title mt-2">Queso con orégano</h5>
+            <p class="text-muted mb-0">Queso aromatizado con hierbas, perfecto para picadas y panes caseros.</p>
+          </div>
+        </button>
+
+        <!-- Queso estirado -->
+        <button class="card card-custom cheese-card" type="button"
+                data-bs-toggle="modal" data-bs-target="#quesoEstirado">
+          <img src="images/Ruta-Queso-Chaqueño/QuesoEstirado_GranjaAgroturisticaVATOs.jpg"
+               alt="Queso estirado de Cuevo" class="cheese-thumb" loading="lazy" decoding="async">
+          <div class="card-body text-center">
+            <span class="cheese-tag">Especialidad de Cuevo</span>
+            <h5 class="card-title mt-2">Queso estirado</h5>
+            <p class="text-muted mb-0">El protagonista del récord del queso más largo de Bolivia.</p>
+          </div>
+        </button>
+
+        <!-- Queso madurado -->
+        <button class="card card-custom cheese-card" type="button"
+                data-bs-toggle="modal" data-bs-target="#quesoMadurado">
+          <img src="images/Ruta-Queso-Chaqueño/QuesoMadurado_HaciendaGuaraygue.png"
+               alt="Queso madurado Hacienda Guaraygue" class="cheese-thumb" loading="lazy" decoding="async">
+          <div class="card-body text-center">
+            <span class="cheese-tag">Hacienda Aguaraygue</span>
+            <h5 class="card-title mt-2">Queso madurado</h5>
+            <p class="text-muted mb-0">Piezas que desarrollan sabores más complejos con el tiempo.</p>
+          </div>
+        </button>
+
+        <!-- Requesón cremoso -->
+        <button class="card card-custom cheese-card" type="button"
+                data-bs-toggle="modal" data-bs-target="#requesonCremoso">
+          <img src="images/Ruta-Queso-Chaqueño/RequesonCremoso_GranjaAgroturisticaVATOs.png"
+               alt="Requesón cremoso de la Granja VATOs" class="cheese-thumb" loading="lazy" decoding="async">
+          <div class="card-body text-center">
+            <span class="cheese-tag">Granja VATOs</span>
+            <h5 class="card-title mt-2">Requesón cremoso</h5>
+            <p class="text-muted mb-0">Textura suave y untuosa, ideal para desayunos y postres.</p>
+          </div>
+        </button>
+      </div>
+
+      <p class="mt-4 text-center small text-muted">
+        *Las fotografías corresponden a productores locales del municipio de Cuevo.
+      </p>
+    </div>
+  </section>
+
+  <!-- MODALES TIPOS DE QUESO -->
+
+  <!-- Queso compacto VATOs -->
+  <div class="modal fade" id="quesoCompactoVatos" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header bg-gold text-dark">
+          <h5 class="modal-title fw-bold">Queso compacto – Granja Agroturística VATOs</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body row gy-3 align-items-center">
+          <div class="col-lg-5">
+            <p>
+              El queso compacto de la Granja VATOs se elabora con leche fresca de vacas criadas en el Chaco,
+              siguiendo procesos artesanales que respetan la temperatura y el punto de cuajado.
+            </p>
+            <p>
+              Su textura firme permite cortarlo en láminas o cubos, por lo que es ideal para sándwiches,
+              picadas y acompañar platos típicos de la región.
+            </p>
+          </div>
+          <div class="col-lg-7 text-center">
+            <img src="images/Ruta-Queso-Chaqueño/QuesoCompacto_GranjaAgroturisticaVATOs.png"
+                 alt="Queso compacto de la Granja VATOs"
+                 class="modal-cheese-img" loading="lazy" decoding="async">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Queso compacto cuadrado -->
+  <div class="modal fade" id="quesoCompactoCuadrado" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header bg-gold text-dark">
+          <h5 class="modal-title fw-bold">Queso compacto cuadrado – Hacienda Aguaraygue</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body row gy-3 align-items-center">
+          <div class="col-lg-5">
+            <p>
+              En su formato cuadrado, el queso compacto de la Hacienda Aguaraygue facilita el corte y el
+              almacenamiento, manteniendo una textura densa y un sabor equilibrado.
+            </p>
+            <p>
+              Es utilizado tanto en el consumo familiar como en servicios de alimentación, gracias a su
+              rendimiento y facilidad para porcionar.
+            </p>
+          </div>
+          <div class="col-lg-7 text-center">
+            <img src="images/Ruta-Queso-Chaqueño/QuesoCompactoCuadrado_HaciendaGuaraygue.png"
+                 alt="Queso compacto cuadrado Hacienda Guaraygue"
+                 class="modal-cheese-img" loading="lazy" decoding="async">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Queso compacto redondo -->
+  <div class="modal fade" id="quesoCompactoRedondo" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header bg-gold text-dark">
+          <h5 class="modal-title fw-bold">Queso compacto redondo – Hacienda Aguaraygue</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body row gy-3 align-items-center">
+          <div class="col-lg-5">
+            <p>
+              El queso compacto redondo conserva la forma tradicional de las piezas elaboradas en la zona.
+              Puede consumirse fresco o destinarse a procesos de maduración.
+            </p>
+            <p>
+              Su corte presenta una pasta homogénea, con aromas lácteos suaves y un sabor que se intensifica
+              conforme avanza el tiempo de curado.
+            </p>
+          </div>
+          <div class="col-lg-7 text-center">
+            <img src="images/Ruta-Queso-Chaqueño/QuesoCompactoRedondo_HaciendaGuaraygue.png"
+                 alt="Queso compacto redondo Hacienda Guaraygue"
+                 class="modal-cheese-img" loading="lazy" decoding="async">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Queso con ají -->
+  <div class="modal fade" id="quesoConAji" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header bg-gold text-dark">
+          <h5 class="modal-title fw-bold">Queso con ají – Granja Agroturística VATOs</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body row gy-3 align-items-center">
+          <div class="col-lg-5">
+            <p>
+              Este queso incorpora ají picado en la masa, logrando un sabor más intenso y característico del
+              gusto chaqueño por los sabores fuertes.
+            </p>
+            <p>
+              Suele servirse en rodajas finas para acompañar panes, asados y picadas, aportando un toque
+              picante al plato.
+            </p>
+          </div>
+          <div class="col-lg-7 text-center">
+            <img src="images/Ruta-Queso-Chaqueño/QuesoConAji_GranjaAgroturisticaVATOs.png"
+                 alt="Queso con ají de la Granja VATOs"
+                 class="modal-cheese-img" loading="lazy" decoding="async">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Queso con orégano -->
+  <div class="modal fade" id="quesoConOregano" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header bg-gold text-dark">
+          <h5 class="modal-title fw-bold">Queso con orégano – Granja Agroturística VATOs</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body row gy-3 align-items-center">
+          <div class="col-lg-5">
+            <p>
+              El queso con orégano combina la pasta láctea con hierbas aromáticas, resultando en un producto
+              muy apreciado para picadas, tostadas y pizzas caseras.
+            </p>
+            <p>
+              Su aroma recuerda a las cocinas familiares del Chaco, donde el queso es parte esencial de la mesa.
+            </p>
+          </div>
+          <div class="col-lg-7 text-center">
+            <img src="images/Ruta-Queso-Chaqueño/QuesoConOregano_GrancaAgroturisticaVATOs.png"
+                 alt="Queso con orégano de la Granja VATOs"
+                 class="modal-cheese-img" loading="lazy" decoding="async">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Queso estirado -->
+  <div class="modal fade" id="quesoEstirado" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header bg-gold text-dark">
+          <h5 class="modal-title fw-bold">Queso estirado – Especialidad de Cuevo</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body row gy-3 align-items-center">
+          <div class="col-lg-5">
+            <p>
+              El queso estirado es el símbolo del Festival de la Leche y el Queso Chaqueño. Su masa elástica permite
+              trabajarlo en largas tiras que, en conjunto, forman el queso más largo del país.
+            </p>
+            <p>
+              Su textura lo hace ideal para fundir y para preparaciones calientes. El récord alcanzado en 2025 llegó
+              a 166 metros de longitud.
+            </p>
+          </div>
+          <div class="col-lg-7 text-center">
+            <img src="images/Ruta-Queso-Chaqueño/QuesoEstirado_GranjaAgroturisticaVATOs.jpg"
+                 alt="Queso estirado de Cuevo"
+                 class="modal-cheese-img" loading="lazy" decoding="async">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Queso madurado -->
+  <div class="modal fade" id="quesoMadurado" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header bg-gold text-dark">
+          <h5 class="modal-title fw-bold">Queso madurado – Hacienda Aguaraygue</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body row gy-3 align-items-center">
+          <div class="col-lg-5">
+            <p>
+              Los quesos madurados de la Hacienda Aguaraygue pasan por un periodo de curado controlado, durante el cual
+              desarrollan aromas y sabores más complejos.
+            </p>
+            <p>
+              Se recomiendan para tablas especiales, maridajes con vinos y degustaciones donde se puedan apreciar
+              sus matices.
+            </p>
+          </div>
+          <div class="col-lg-7 text-center">
+            <img src="images/Ruta-Queso-Chaqueño/QuesoMadurado_HaciendaGuaraygue.png"
+                 alt="Queso madurado Hacienda Guaraygue"
+                 class="modal-cheese-img" loading="lazy" decoding="async">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Requesón cremoso -->
+  <div class="modal fade" id="requesonCremoso" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header bg-gold text-dark">
+          <h5 class="modal-title fw-bold">Requesón cremoso – Granja Agroturística VATOs</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body row gy-3 align-items-center">
+          <div class="col-lg-5">
+            <p>
+              El requesón cremoso se obtiene a partir del suero de la leche. Su textura suave permite usarlo en rellenos,
+              postres y desayunos, combinado con frutas, miel o mermeladas.
+            </p>
+            <p>
+              Es una forma de aprovechar al máximo la leche, reduciendo desperdicios y ampliando la variedad de productos
+              lácteos disponibles.
+            </p>
+          </div>
+          <div class="col-lg-7 text-center">
+            <img src="images/Ruta-Queso-Chaqueño/RequesonCremoso_GranjaAgroturisticaVATOs.png"
+                 alt="Requesón cremoso de la Granja VATOs"
+                 class="modal-cheese-img" loading="lazy" decoding="async">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- HISTORIAS DE VIDA -->
+<section id="historias" class="py-5">
+  <div class="container" data-aos="fade-up">
+    <h2 class="text-center mb-3 fw-bold">👥 Historias de Vida</h2>
+    <p class="section-subtitle text-center mb-5">
+      Productores y productoras que mantienen viva la tradición del queso y la gastronomía de Cuevo.
+    </p>
+
+    <div class="row g-4">
+      <!-- Jaime Vaca -->
+      <div class="col-md-3" data-aos="zoom-in">
+        <div class="card card-custom h-100">
+          <div class="card-body text-center">
+            <h5 class="card-title fw-bold">Jaime Vaca Barrientos</h5>
+            <p class="text-muted">Récord del queso estirado más largo de Bolivia.</p>
+            <button class="btn btn-outline-gold" data-bs-toggle="modal" data-bs-target="#jaime">Ver historia</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Arnoldo Aguilera -->
+      <div class="col-md-3" data-aos="zoom-in" data-aos-delay="50">
+        <div class="card card-custom h-100">
+          <div class="card-body text-center">
+            <h5 class="card-title fw-bold">Arnoldo Aguilera</h5>
+            <p class="text-muted">Ganadero de la Hacienda Aguaraygue.</p>
+            <button class="btn btn-outline-gold" data-bs-toggle="modal" data-bs-target="#arnoldo">Ver historia</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Adriana Torrico -->
+      <div class="col-md-3" data-aos="zoom-in" data-aos-delay="100">
+        <div class="card card-custom h-100">
+          <div class="card-body text-center">
+            <h5 class="card-title fw-bold">Adriana Torrico</h5>
+            <p class="text-muted">Granja VATOs: queso y agro-turismo.</p>
+            <button class="btn btn-outline-gold" data-bs-toggle="modal" data-bs-target="#adriana">Ver historia</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Oscar Vaca -->
+      <div class="col-md-3" data-aos="zoom-in" data-aos-delay="150">
+        <div class="card card-custom h-100">
+          <div class="card-body text-center">
+            <h5 class="card-title fw-bold">Oscar Vaca</h5>
+            <p class="text-muted">Rescate de recetas tradicionales con maíz.</p>
+            <button class="btn btn-outline-gold" data-bs-toggle="modal" data-bs-target="#oscar">Ver historia</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MODALES HISTORIAS -->
+
+<!-- Jaime -->
+<div class="modal fade" id="jaime" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header bg-gold text-dark">
+        <h5 class="modal-title fw-bold">Historia de Vida – Jaime Vaca Barrientos</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+      </div>
+      <div class="modal-body">
+        <p>
+          Jaime Vaca Barrientos, de 81 años, es una figura emblemática del Festival de la Leche y el Queso Chaqueño.
+          Es conocido por elaborar el queso estirado más largo de Bolivia.
+        </p>
+        <p>
+          En 2009 alcanzó los 20,9 metros y, con el tiempo, ha superado varias veces su propia marca,
+          logrando en 2025 un nuevo récord de 166 metros. Este logro posiciona a Cuevo como referente nacional
+          en la producción del queso estirado más largo del país.
+        </p>
+
+        <div class="mt-3 text-center">
+          <img
+            src="images/Historias/Jaime_Vaca.png"
+            class="img-fluid rounded-3 shadow-sm"
+            alt="Jaime Vaca Barrientos"
+            loading="lazy"
+            decoding="async"
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Arnoldo -->
+<div class="modal fade" id="arnoldo" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header bg-gold text-dark">
+        <h5 class="modal-title fw-bold">Historia de Vida – Arnoldo Aguilera</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+      </div>
+      <div class="modal-body">
+        <p>
+          Arnoldo Aguilera, productor de la Hacienda Aguaraygue, ha desarrollado un sistema de alimentación
+          estrictamente controlado para su ganado, basado en maíz y forraje cultivados en la propia propiedad.
+        </p>
+        <p>
+          Para él, la alimentación es clave para obtener un buen producto. Su enfoque integral asegura la calidad de
+          la leche y de los quesos, que se distinguen por su sabor, aroma y textura.
+        </p>
+        <div class="mt-3 text-center">
+          <img
+            src="images/Historias/Arnoldo_Aguilera.png"
+            class="img-fluid rounded-3 shadow-sm"
+            alt="Arnoldo Aguilera"
+            loading="lazy"
+            decoding="async"
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Adriana -->
+<div class="modal fade" id="adriana" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header bg-gold text-dark">
+        <h5 class="modal-title fw-bold">Historia de Vida – Adriana Torrico</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+      </div>
+      <div class="modal-body">
+        <p>
+          Adriana Torrico, de la Granja Agroturística VATOs, combina la producción lechera con el turismo rural.
+          Además de quesos, elabora productos derivados del maíz como chirriadas, pan de maíz, chima, viajerito y biscocho.
+        </p>
+        <p>
+          Su trabajo refleja la versatilidad de los cultivos de Cuevo y la relación entre agricultura, ganadería y gastronomía.
+        </p>
+
+        <div class="mt-3 text-center">
+          <img
+            src="images/Historias/Adriana_Torrico_Perez.png"
+            class="img-fluid rounded-3 shadow-sm"
+            alt="Adriana Torrico Pérez"
+            loading="lazy"
+            decoding="async"
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Oscar -->
+<div class="modal fade" id="oscar" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header bg-gold text-dark">
+        <h5 class="modal-title fw-bold">Historia de Vida – Oscar Vaca</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+      </div>
+      <div class="modal-body">
+        <p>
+          El señor Oscar Vaca proviene de una familia con tradición en la ganadería, lecheria.
+          En la década de 1960, su padre estableció una hacienda denominada La Colorada, destinada a la producción lechera. Adicionalmente, se destaca que su padre fue uno de los pioneros en introducir la raza holandesa en la región del Chaco.
+        </p>
+        <p>
+          El señor Vaca menciona que uno de sus hermanos continúa el legado paterno en la actividad ganadera. Asimismo, comenta que fue uno de los socios fundadores en la organización del Festival de la Leche y el Queso Chaqueño, iniciativa conjunta con otros productores lecheros del municipio de Cuevo, que dio origen a la Asociación de Productores de Leche de Cuevo (APLECUEVO), entidad que dirigió durante sus primeros cuatro años. Asimismo, en colaboración con la administración del gobierno municipal de Cuevo, se conformó la cámara hotelera, integrada por siete propietarios de hoteles y alojamientos, con el objetivo de promover el desarrollo turístico del municipio.
+        </p>
+
+        <div id="carouselOscar" class="carousel slide modal-carousel mt-3" data-bs-ride="carousel" data-bs-interval="5000">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselOscar" data-bs-slide-to="0" class="active" aria-current="true"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/Historias/Oscar_Vaca.png" class="d-block w-100" alt="Oscar Vaca" loading="lazy" decoding="async">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselOscar" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselOscar" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+          </button>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="modal fade" id="arnoldo" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header bg-gold text-dark">
+          <h5 class="modal-title fw-bold">Historia de Vida – Arnoldo Aguilera</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body">
+          <p>Arnoldo Aguilera, productor de la Hacienda Aguaraygue, ha desarrollado un sistema de alimentación estrictamente controlado para su ganado, basado en maíz y forraje cultivados en la propia propiedad.</p>
+          <p>Para él, la alimentación es clave para obtener un buen producto. Su enfoque integral asegura la calidad de la leche y de los quesos, que se distinguen por su sabor, aroma y textura.</p>
+
+          <div id="carouselArnoldo" class="carousel slide modal-carousel mt-3" data-bs-ride="carousel" data-bs-interval="5000">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselArnoldo" data-bs-slide-to="0" class="active" aria-current="true"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/Historias/Arnoldo_Aguilera.png" class="d-block w-100" alt="Arnoldo Aguilera" loading="lazy" decoding="async">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselArnoldo" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselArnoldo" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Siguiente</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="adriana" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header bg-gold text-dark">
+          <h5 class="modal-title fw-bold">Historia de Vida – Adriana Torrico</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body">
+          <p>Adriana Torrico, de la Granja Agroturística VATOs, combina la producción lechera con el turismo rural. Además de quesos, elabora productos derivados del maíz como chirriadas, pan de maíz, chima, viajerito y biscocho.</p>
+          <p>Su trabajo refleja la versatilidad de los cultivos de Cuevo y la relación entre agricultura, ganadería y gastronomía.</p>
+
+          <div id="carouselAdriana" class="carousel slide modal-carousel mt-3" data-bs-ride="carousel" data-bs-interval="5000">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselAdriana" data-bs-slide-to="0" class="active" aria-current="true"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/Historias/Adriana_Torrico_Perez.png" class="d-block w-100" alt="Adriana Torrico Pérez" loading="lazy" decoding="async">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselAdriana" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselAdriana" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Siguiente</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="oscar" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header bg-gold text-dark">
+          <h5 class="modal-title fw-bold">Historia de Vida – Oscar Vaca</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body">
+          <p>Oscar Vaca trabaja en la preservación de recetas tradicionales como el viajerito, un alimento que consumían los vaqueros durante el pastoreo de ganado por su practicidad y valor energético.</p>
+          <p>Su labor aporta al rescate de la memoria culinaria del municipio, vinculando los saberes antiguos con las nuevas generaciones.</p>
+
+          <div id="carouselOscar" class="carousel slide modal-carousel mt-3" data-bs-ride="carousel" data-bs-interval="5000">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselOscar" data-bs-slide-to="0" class="active" aria-current="true"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/Historias/Oscar_Vaca.png" class="d-block w-100" alt="Oscar Vaca" loading="lazy" decoding="async">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselOscar" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselOscar" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Siguiente</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PLANIFICA TU VISITA -->
+  <section id="visita" class="py-5 bg-light text-center">
+    <div class="container" data-aos="fade-up">
+      <h2 class="mb-3 fw-bold">📅 Planifica tu Visita</h2>
+      <p class="section-subtitle mb-4">
+        El Festival de la Leche y el Queso Chaqueño es el momento ideal para conocer Cuevo en su máximo esplendor.
+      </p>
+      <p>Durante el festival se habilitan restaurantes temporales, se presentan comidas típicas y se vive un ambiente festivo alrededor de la producción lechera.</p>
+      <p class="mb-4">No te pierdas la oportunidad de formar parte de la medición del Queso estirado más largo de Bolivia.</p>
+
+      <div class="row justify-content-center mt-4">
+        <div class="col-lg-10">
+          <div class="accordion" id="itinerariosRutaQueso">
+
+            <!-- Itinerario 1 -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingIt1">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseIt1" aria-expanded="true" aria-controls="collapseIt1">
+                  🧀 Actividad 1: Ruta de la leche y el queso (1 día)
+                </button>
+              </h2>
+              <div id="collapseIt1" class="accordion-collapse collapse show" aria-labelledby="headingIt1">
+                <div class="accordion-body text-start">
+                  <ul>
+                    <li>Bienvenida en la <strong>plaza principal</strong> e información turística general.</li>
+                    <li>Visita guiada al <strong>Museo de la Guerra del Chaco</strong>.</li>
+                    <li>Fotografías en la plaza, la <strong>Catedral San Juan Bautista</strong> y la base militar Bullain.</li>
+                    <li>Traslado a la <strong>Hacienda Aguaraygue</strong> para un desayuno campestre: pan de maíz, bizcochos, chima, chirriadas, mermelada, requesón, queso estirado y ambrosía opcional.</li>
+                    <li>Explicación del propietario sobre la <strong>crianza del ganado</strong>, elaboración del alimento y proceso del queso compacto.</li>
+                    <li>Almuerzo en la <strong>Granja Agroturística VATOs</strong>, con opción de platos típicos: chancho galleta, chivo a la cruz, carne al trapo y guarniciones.</li>
+                    <li>Demostración de <strong>elaboración de queso</strong> en VATOs y explicación de los tipos de queso.</li>
+                    <li>Cata de quesos en el <strong>Hotel María Estela</strong>, con explicación de aroma, sabor, textura y color.</li>
+                    <li>Presentación de <strong>danzas chaqueñas</strong> e interacción con los visitantes.</li>
+                    <li>Tiempo para comprar quesos y <strong>souvenirs</strong> en el hotel.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Itinerario 2 -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingIt2">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseIt2" aria-expanded="false" aria-controls="collapseIt2">
+                  🎉 Actividad 2: Festival de la Leche y el Queso (2 días)
+                </button>
+              </h2>
+              <div id="collapseIt2" class="accordion-collapse collapse" aria-labelledby="headingIt2">
+                <div class="accordion-body text-start">
+                  <h6 class="fw-bold">Día 1</h6>
+                  <ul>
+                    <li>Llegada al municipio de Cuevo y traslado al <strong>sitio del evento</strong>.</li>
+                    <li>Recorrido por los <strong>stands de productores queseros</strong> con degustaciones y venta de productos.</li>
+                    <li>Presentación de <strong>danzas chaqueñas</strong> a cargo del ballet juvenil municipal.</li>
+                    <li>Reconocimiento al productor premiado con el <strong>mejor queso 2025</strong>.</li>
+                    <li>Participación en la <strong>medición del queso estirado</strong>; los participantes pueden llevarse el queso que queda en sus manos al final.</li>
+                  </ul>
+
+                  <h6 class="fw-bold mt-3">Día 2</h6>
+                  <ul>
+                    <li>Desayuno buffet en los hoteles: café, leche, yogur, pan de maíz, chirriadas, bizcocho de maíz, chima, mermelada, queso y plata.</li>
+                    <li>Fotografías grupales en la <strong>plaza principal</strong>, Catedral San Juan Bautista y base militar Bullain.</li>
+                    <li>Visita guiada al <strong>Museo de la Guerra del Chaco</strong>.</li>
+                    <li>Tiempo para comprar quesos y <strong>souvenirs</strong> en el hotel, con una persona a cargo de la venta.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-4 text-start">
+            <h5 class="fw-bold">✅ Recomendaciones para los visitantes</h5>
+            <ul>
+              <li>Usar ropa cómoda (se recomiendan hasta 3 cambios de ropa).</li>
+              <li>Llevar zapatillas cómodas, sombrero o gorra y protector solar.</li>
+              <li>Usar repelente contra insectos.</li>
+              <li>Llevar una botella de agua reutilizable.</li>
+              <li>Cuidar siempre sus pertenencias.</li>
+              <li>Considerar que la cobertura de internet (Entel y Tigo) es mejor en el área urbana.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- BOTÓN QUE ABRE GOOGLE MAPS -->
+      <a 
+        href="https://maps.app.goo.gl/AYAfx9EfMo9ANxQB8"
+        class="btn btn-outline-gold mt-2 me-2"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        📍 Ver ubicación en Google Maps
+      </a>
+
+      <!-- BOTÓN DE VOLVER -->
+      <a href="#inicio" class="btn btn-gold mt-2">Volver al inicio</a>
+    </div>
+  </section>
+
+  <!-- JUEGOS EN GRUPO -->
+  <section id="juegos" class="py-5">
+    <div class="container" data-aos="fade-up">
+      <h2 class="text-center mb-3 fw-bold">🎲 Juegos en grupo sobre el queso</h2>
+      <p class="section-subtitle text-center mb-5">
+        Actividades pensadas para que los visitantes aprendan, recuerden y se diviertan
+        mientras conocen la Ruta de la Leche y el Queso en Cuevo.
+      </p>
+
+      <div class="row justify-content-center">
+        <div class="col-lg-10">
+          <div class="accordion" id="juegosAccordion">
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingJuego1">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseJuego1" aria-expanded="true" aria-controls="collapseJuego1">
+                  1️⃣ Preguntas de conocimiento general sobre el queso
+                </button>
+              </h2>
+              <div id="collapseJuego1" class="accordion-collapse collapse show" aria-labelledby="headingJuego1">
+                <div class="accordion-body">
+                  <p>Se forman <strong>2 equipos</strong> según la cantidad de turistas. Gana el equipo que responda correctamente más preguntas. En cada ronda pueden pedir una pista al guía.</p>
+                  <ol>
+                    <li>¿Cuánto mide el queso más largo de Bolivia actualmente?</li>
+                    <li>¿En qué año se originó el queso?</li>
+                    <li>¿Cómo se llama el proceso de calentamiento de la leche para eliminar microorganismos patógenos?</li>
+                    <li>¿Cuál es el ingrediente que permite transformar la leche en queso?</li>
+                    <li>¿Qué nutriente abundante en la leche y el queso es beneficioso para los huesos?</li>
+                    <li>¿Cuál es el ingrediente natural que se usa para dar sabor al queso?</li>
+                    <li>Menciona algunas razas de vacas lecheras.</li>
+                    <li>¿La lactosa es el azúcar natural de la leche? (F o V)</li>
+                    <li>¿De qué animal se cree que se dio origen al queso? Oveja, vaca o cabra.</li>
+                    <li>¿A qué país se le llama el país de los quesos por su gran variedad?</li>
+                  </ol>
+
+                  <details class="mt-3">
+                    <summary class="fw-semibold">Ver respuestas sugeridas</summary>
+                    <ol class="small mt-2">
+                      <li>166 metros (récord alcanzado en 2025 en Cuevo).</li>
+                      <li>Aproximadamente 8.000 a.C.</li>
+                      <li>Pasteurización.</li>
+                      <li>Cuajo.</li>
+                      <li>Calcio.</li>
+                      <li>La sal.</li>
+                      <li>Entre otras: Girolando, Holstein, Criolla, Jersey.</li>
+                      <li>Verdadero.</li>
+                      <li>Principalmente oveja y cabra.</li>
+                      <li>Francia.</li>
+                    </ol>
+                  </details>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingJuego2">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseJuego2" aria-expanded="false" aria-controls="collapseJuego2">
+                  2️⃣ Sabores a ciegas
+                </button>
+              </h2>
+              <div id="collapseJuego2" class="accordion-collapse collapse" aria-labelledby="headingJuego2">
+                <div class="accordion-body">
+                  <p>Se forman <strong>2 equipos</strong>. Todos los participantes tienen los ojos cubiertos, excepto una persona por equipo que valida las respuestas.</p>
+                  <p>Cada equipo recibe una tabla con <strong>diferentes tipos de quesos</strong>. Los jugadores con los ojos vendados prueban un queso y deben adivinar qué tipo es, guiándose por <strong>sabor, aroma y textura</strong>.</p>
+                  <p class="mb-0">Gana el equipo que acierte la mayor cantidad de quesos. Es una actividad ideal para cerrar una cata o visita a productores.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingJuego3">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseJuego3" aria-expanded="false" aria-controls="collapseJuego3">
+                  3️⃣ Memoria de palabras
+                </button>
+              </h2>
+              <div id="collapseJuego3" class="accordion-collapse collapse" aria-labelledby="headingJuego3">
+                <div class="accordion-body">
+                  <p>Se forman nuevamente <strong>2 equipos</strong>. Cada grupo hace un círculo. El primer participante dice una palabra relacionada con la ruta (por ejemplo, “vaca”).</p>
+                  <p>El siguiente participante repite la palabra anterior y añade una nueva: “vaca, lechera”; el tercero, “vaca, lechera, prensa”, y así sucesivamente.</p>
+                  <p>El último participante debe mencionar <strong>todas las palabras</strong> en orden y sin errores. Si alguien se equivoca, el equipo debe comenzar de nuevo. Gana el equipo que logre completar la cadena correctamente.</p>
+                  <p class="mb-0 small text-muted">Ejemplos de palabras: vaca, lechera, prensa, cuajo, queso estirado, ambrosía, maíz, etc.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="text-center py-4">
+    <p class="mb-0">© 2025 Vive Cuevo | Proyecto académico UDI – Administración de Empresas Turísticas, Hoteleras y Gastronómicas</p>
+  </footer>
+
+  <!-- JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 1000, once: true });
+
+    // Pausar carruseles en hover
+    document.querySelectorAll('.carousel').forEach(c=>{
+      c.addEventListener('mouseenter', ()=>bootstrap.Carousel.getOrCreateInstance(c).pause());
+      c.addEventListener('mouseleave', ()=>bootstrap.Carousel.getOrCreateInstance(c).cycle());
+    });
+  </script>
+</body>
+</html>
